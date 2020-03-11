@@ -4,6 +4,13 @@
     margin: 0;
 }
 
+img{
+    max-width: 100%;
+}
+
+body{
+    margin-bottom: 1000px;
+}
 .red{
     background-color: #e74c3c;
 }
@@ -51,6 +58,15 @@
 .white{
     background-color: #ecf0f1;
 }
+
+
+
+
+
+
+
+
+
 
 
 .container{
@@ -103,13 +119,81 @@
 .container3{
     height: 300px;
     display: flex;
-    justify-content:
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     /* flex-direction: column; */
 }
-
 
 .box7{
     width: 300px;
     height: 100px;
+}
+
+
+.container4{
+  display: flex;
+}
+
+.box8,
+.box9,
+.box10{
+    flex: 1;
+}
+
+.box8{
+    order: 2;
+}
+
+.box9{
+    order: 1;
+}
+
+.box10{
+    order: 3;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+.column{
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 600px){
+    .row{
+        flex-direction: row;
+    }
+
+    .container5 .row:nth-child(even){
+        flex-direction: row-reverse;
+    }
+}
+
+
+.container6{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerBox{
+    width:80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block{
+    width:300px;
+    height: 50px;
 }
