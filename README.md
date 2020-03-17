@@ -3,9 +3,9 @@
 
 ## Learning Flexbox
 There are multiple places which are great resources on how to learn flexbox. Bellow is a link to 3 places I would recommend having a read through.  
-* [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [W3Schools](https://www.w3schools.com/css/css3_flexbox.asp)
-* [Flexbox Froggy](https://flexboxfroggy.com/)
+* [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) (has some really good pictures which explains what is going on)
+* [Flexbox Froggy](https://flexboxfroggy.com/) (a fun interactive game for learning flexbox)
 
 ## Flex Containers
 
